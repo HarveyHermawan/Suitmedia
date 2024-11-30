@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: rgba(255, 103, 0, 1);
+    width: 100%;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        gap: 70rem;
+        padding-right: 10%;
+
+        .logo{
+            width: auto;
+            height: 50px;
+        }
+
+        .nav-links{
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            color: white;
+            font-family: Arial;
+            margin-left: -9%;
+            cursor: pointer;
+        }
+
+    }
+}
+
+.navbar.hidden{
+    top: -100px;
+}
+
+.navbar.visible{
+    top: 0;
+}
+
+.navbar .nav-links .active{
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+}
