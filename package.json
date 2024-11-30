@@ -4,7 +4,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "https://suitmedia-backend.suitdev.com/api/ideas",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
